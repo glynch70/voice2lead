@@ -14,7 +14,7 @@ export default function HowItWorksPage() {
       <Navigation />
       <FloatingCTA />
 
-      {/* Hero */}
+      {/* Hero - video cover uses Voice2Lead neon logo (voice_to_lead_video_thumb.png) */}
       <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-slate-900 via-slate-800 to-background">
         <div className="container mx-auto max-w-4xl">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -179,7 +179,7 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      {/* Demo Video Section */}
+      {/* Demo Video Section - cover: voice_to_lead_video_thumb.png */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">See It In Action</h2>

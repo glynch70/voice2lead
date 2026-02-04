@@ -64,7 +64,7 @@ export default function IndustriesPage() {
       <Navigation />
       <FloatingCTA />
 
-      {/* Hero */}
+      {/* Hero - video cover: voice_to_lead_video_thumb.png (neon logo) */}
       <section className="pt-32 pb-20 px-4 bg-gradient-to-b from-slate-900 via-slate-800 to-background">
         <div className="container mx-auto max-w-4xl">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
