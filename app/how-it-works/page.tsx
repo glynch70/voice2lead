@@ -8,6 +8,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { Phone, MessageSquare, CheckCircle, Settings, Bell, Calendar, ArrowRight, Play } from "lucide-react"
 
+const VIDEO_COVER_IMAGE = "/images/voice_to_lead_video_thumb.png"
+
 export default function HowItWorksPage() {
   return (
     <div className="min-h-screen">
@@ -27,7 +29,7 @@ export default function HowItWorksPage() {
             <div className="flex justify-center">
               <div className="relative rounded-2xl shadow-2xl overflow-hidden w-full max-w-[400px] aspect-[4/5]">
                 <Image
-                  src="/images/voice_to_lead_video_thumb.png"
+                  src={VIDEO_COVER_IMAGE}
                   alt="Voice2Lead - AI Phone Assistant for Trades"
                   fill
                   className="object-cover"
@@ -186,7 +188,7 @@ export default function HowItWorksPage() {
           <p className="text-muted-foreground mb-8">Watch how Voice2Lead handles a real customer call</p>
           <div className="relative aspect-video rounded-lg overflow-hidden border border-border shadow-lg">
             <Image
-              src="/images/voice_to_lead_video_thumb.png"
+              src={VIDEO_COVER_IMAGE}
               alt="Voice2Lead demo video - Watch how it works"
               fill
               className="object-cover"
